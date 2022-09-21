@@ -134,18 +134,9 @@ article{
     align-items: center;
     margin-top: 110px;
   
-    
-    
 }
 .article-section{
     display: flex;
-    width: 100%;
-    justify-content: center;
-   justify-content: space-evenly;
-   margin-left: 160px;
-   margin-right:144px ;
-
-     
 }
 .articleh2{
     font-family: 'Poppins';
@@ -177,8 +168,6 @@ article{
     color: #544837;
     Width:240px;
     Height:52px;
-    
-
 }
 
 .article-btn{
@@ -199,6 +188,8 @@ main {
     
     display: flex;
     flex-direction: column;
+    max-width: 1110px;
+    margin-left: 145px;
    
     
 }
@@ -206,6 +197,7 @@ main {
     display: flex;
     margin-top: 210px;
     justify-content: center;
+    
 }
 .section-text{
 
