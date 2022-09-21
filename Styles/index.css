@@ -240,11 +240,57 @@ h3{
 .third-section{
     display: flex;
     margin-top: 210px;
-    justify-content: center;
-    
+    justify-content: center; 
+}
+.fotlogo{
+    margin:160px ;
 }
 
 .fotnav{
     display: flex;
-    
+    justify-content: end;
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #544837;
+ 
+}
+.fotnav1{
+    margin-right: 172px;
+
+}
+
+.fotnav2{
+    margin-right: 82px;
+
+}
+.fotbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 131px;
+}
+input{
+    Width:325px;
+    Height:48px;
+    border-radius: 4px;
+    border-color: #BCD0E5;
+    margin-bottom: 21px;
+}
+
+.fot-btn{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color:#FF9900;
+    border: none;
+    border-radius:4px ;
+    Width:131px;
+    Height:39px;
 }
