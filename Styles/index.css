@@ -1,16 +1,27 @@
+body{
+    max-width: 1536px;
+}
 .topnav{
-    max-width: 1400px;
     display: flex;
+    justify-content:flex-end;
 }
 
 .logo{
     margin-left: 144px;
+ 
+    
 }
 .topnav a {
     float: left;
     display: block;
     padding: 14px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    color: #2F281E;
 }
 .sign-in{
     font-family: 'Poppins', sans-serif;
@@ -98,15 +109,18 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 110px;
+  
     
     
 }
 .article-section{
-    display: flex;
-    justify-items: flex-start;
-    justify-content: space-between;   
+   display: flex;
+ 
+  
+     
 }
-h2{
+.articleh2{
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
@@ -116,8 +130,9 @@ h2{
     color: #2F281E;
     height: 108px;
     width: 539px;
+    margin-bottom: 54px;
 }
-h3{
+.articleh3{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -135,6 +150,7 @@ h3{
     color: #544837;
     Width:240px;
     Height:52px;
+    
 
 }
 
@@ -150,6 +166,85 @@ h3{
     border-radius: 4px;
     Width:175px;
     Height:53px;
- 
+    margin-top: 34px;
+}
+main {
+    
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.first-section{
+    display: flex;
+    margin-top: 210px;
+    justify-content: center;
+}
+.section-text{
 
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+    Width: 486px;
+    Height: 531px;
+    margin-right: 104px;
+  
+    
+}
+
+h2{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #2F281E;
+    margin-top: 3px;
+    margin-bottom:22px ;
+
+}
+
+h3{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    color: #2F281E;
+    margin-bottom:12px ;
+}
+
+.second-section{
+    display: flex;
+    margin-top: 210px;
+    justify-content: center;
+
+}
+
+
+.section-text2{
+    font-family:'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #544837;
+    Width: 486px;
+    Height: 531px;
+    margin-left: 100px;
+}
+   
+.third-section{
+    display: flex;
+    margin-top: 210px;
+    justify-content: center;
+    
+}
+
+.fotnav{
+    display: flex;
+    
 }
